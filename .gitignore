@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# Build artifacts from the harness templates
+fuzz_target
+*.o
+
+# Generated corpora and crash output, never commit real scan results
+findings_dir/
+crashes/
+corpus_out/
